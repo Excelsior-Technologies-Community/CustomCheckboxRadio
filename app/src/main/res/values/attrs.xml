@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CustomCheckBox Attributes -->
+    <declare-styleable name="CustomCheckBox">
+        <attr name="checkboxCheckedIcon" format="reference" />
+        <attr name="checkboxUncheckedIcon" format="reference" />
+        <attr name="checkboxIconPadding" format="dimension" />
+        <attr name="checkboxPaddingStart" format="dimension" />
+        <attr name="checkboxPaddingEnd" format="dimension" />
+        <attr name="checkboxPaddingTop" format="dimension" />
+        <attr name="checkboxPaddingBottom" format="dimension" />
+        <attr name="checkboxMarginStart" format="dimension" />
+        <attr name="checkboxMarginEnd" format="dimension" />
+        <attr name="checkboxMarginTop" format="dimension" />
+        <attr name="checkboxMarginBottom" format="dimension" />
+        <attr name="checkboxBackgroundTintColor" format="color" />
+    </declare-styleable>
+
+    <!-- CustomRadioButton Attributes -->
+    <declare-styleable name="CustomRadioButton">
+        <attr name="radioCheckedIcon" format="reference" />
+        <attr name="radioUncheckedIcon" format="reference" />
+        <attr name="radioIconPadding" format="dimension" />
+        <attr name="radioPaddingStart" format="dimension" />
+        <attr name="radioPaddingEnd" format="dimension" />
+        <attr name="radioPaddingTop" format="dimension" />
+        <attr name="radioPaddingBottom" format="dimension" />
+        <attr name="radioMarginStart" format="dimension" />
+        <attr name="radioMarginEnd" format="dimension" />
+        <attr name="radioMarginTop" format="dimension" />
+        <attr name="radioMarginBottom" format="dimension" />
+        <attr name="radioBackgroundTintColor" format="color" />
+    </declare-styleable>
+</resources>

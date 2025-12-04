@@ -1,19 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#F5F5F5">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="Custom CheckBox &amp; RadioButton Demo"
+            android:textColor="#212121"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <com.ext.customcheckboxradiobutton.CustomCheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Default Material CheckBox" />
+
+        <com.ext.customcheckboxradiobutton.CustomCheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="circular check box "
+            app:checkboxBackgroundTintColor="@color/black"
+            app:checkboxCheckedIcon="@drawable/ic_check_circle_32"
+            app:checkboxIconPadding="10dp"
+            app:checkboxPaddingEnd="20dp"
+            app:checkboxPaddingStart="20dp"
+            app:checkboxUncheckedIcon="@drawable/ic_circle_gray_32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:text="Custom Radio Buttons"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <com.ext.customcheckboxradiobutton.CustomRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Outline Style (Purple)"
+                android:textColor="#6A1B9A"
+                app:radioBackgroundTintColor="#F3E5F7"
+                app:radioCheckedIcon="@drawable/ic_radio_checked_purple"
+                app:radioIconPadding="20dp"
+                app:radioMarginStart="10dp"
+                app:radioPaddingEnd="10dp"
+                app:radioPaddingStart="10dp"
+                app:radioUncheckedIcon="@drawable/ic_radio_unchecked_purple" />
+
+            <com.ext.customcheckboxradiobutton.CustomRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Big Icon + Red Tint"
+                android:textColor="#D32F2F"
+                android:textSize="18sp"
+                app:radioBackgroundTintColor="#FFEBEE"
+                app:radioCheckedIcon="@drawable/ic_check_circle_red_32dp"
+                app:radioIconPadding="16dp"
+                app:radioPaddingEnd="10dp"
+                app:radioPaddingStart="10dp"
+                app:radioUncheckedIcon="@drawable/ic_circle_gray_32dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_change_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#2196F3"
+            android:paddingHorizontal="24dp"
+            android:text="Change Style"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</ScrollView>
