@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "CustomCheckboxRadio"
 include(":app")
- 
+include(":custom_checkbox_radioButton")

@@ -22,14 +22,14 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <com.ext.customcheckboxradiobutton.CustomCheckBox
+        <com.ext.custom_checkbox_radiobutton.CustomCheckBox
             android:id="@+id/checkbox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="Default Material CheckBox" />
 
-        <com.ext.customcheckboxradiobutton.CustomCheckBox
+        <com.ext.custom_checkbox_radiobutton.CustomCheckBox
             android:id="@+id/checkbox3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:orientation="vertical">
 
 
-            <com.ext.customcheckboxradiobutton.CustomRadioButton
+            <com.ext.custom_checkbox_radiobutton.CustomRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -73,7 +73,7 @@
                 app:radioPaddingStart="10dp"
                 app:radioUncheckedIcon="@drawable/ic_radio_unchecked_purple" />
 
-            <com.ext.customcheckboxradiobutton.CustomRadioButton
+            <com.ext.custom_checkbox_radiobutton.CustomRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Big Icon + Red Tint"
