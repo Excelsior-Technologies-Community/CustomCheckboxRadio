@@ -14,10 +14,6 @@
 |------------------|--------------------------|----------------------|
 | ![Default](app/src/main/assets/img1.jpeg) | ![Circular](app/src/main/assets/img2.png) | ![Radio](app/src/main/assets/img3.png) |
 
-### 🎥 Demo Video
-
-![Demo](app/src/main/assets/custom_checkbox_radio_demo.mp4)
-
 ---
 
 ## ✨ Features
