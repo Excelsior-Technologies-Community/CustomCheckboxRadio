@@ -1,4 +1,4 @@
-# Custom CheckBox & RadioButton Library
+	# Custom CheckBox & RadioButton Library
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -73,6 +73,7 @@ dependencies {
     app:checkboxIconPadding="10dp"
     app:checkboxPaddingStart="20dp"
     app:checkboxPaddingEnd="20dp"
+	app:checkboxIconSize="16dp"
     app:checkboxBackgroundTintColor="@color/black" />
 ```
 
@@ -96,6 +97,7 @@ dependencies {
         app:radioIconPadding="20dp"
         app:radioPaddingStart="10dp"
         app:radioPaddingEnd="10dp"
+ 		app:radioIconSize="15dp"
         app:radioBackgroundTintColor="#F3E5F7" />
 
     <!-- Big Icon with Red Tint -->
@@ -109,6 +111,7 @@ dependencies {
         app:radioUncheckedIcon="@drawable/ic_circle_gray_32dp"
         app:radioIconPadding="16dp"
         app:radioPaddingStart="10dp"
+		app:radioIconSize="15dp"
         app:radioPaddingEnd="10dp"
         app:radioBackgroundTintColor="#FFEBEE" />
 
@@ -196,6 +199,7 @@ customRadio.isChecked = true
 |-----------|------|---------|-------------|
 | checkboxCheckedIcon | reference | null | Drawable for checked state |
 | checkboxUncheckedIcon | reference | null | Drawable for unchecked state |
+| checkboxIconSize | dimension | 20dp | Size of the checkbox icon (overrides drawable size) |
 | checkboxIconPadding | dimension | 0dp | Space between icon and text |
 | checkboxPaddingStart | dimension | default | Left/Start padding |
 | checkboxPaddingEnd | dimension | default | Right/End padding |
@@ -213,6 +217,7 @@ customRadio.isChecked = true
 |-----------|------|---------|-------------|
 | radioCheckedIcon | reference | null | Drawable for checked state |
 | radioUncheckedIcon | reference | null | Drawable for unchecked state |
+| radioIconSize | dimension | 20dp | Size of the radio button icon (overrides drawable size) |
 | radioIconPadding | dimension | 0dp | Space between icon and text |
 | radioPaddingStart | dimension | default | Left/Start padding |
 | radioPaddingEnd | dimension | default | Right/End padding |
