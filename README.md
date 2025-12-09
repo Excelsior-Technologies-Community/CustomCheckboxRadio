@@ -56,14 +56,14 @@ dependencies {
 
 ```xml
 <!-- Default Material CheckBox -->
-<com.ext.customcheckboxradiobutton.CustomCheckBox
+<com.ext.custom_checkbox_radiobutton.CustomCheckBox
     android:id="@+id/checkbox1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Default Material CheckBox" />
 
 <!-- Custom Circular CheckBox -->
-<com.ext.customcheckboxradiobutton.CustomCheckBox
+<com.ext.custom_checkbox_radiobutton.CustomCheckBox
     android:id="@+id/checkbox2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -86,7 +86,7 @@ dependencies {
     android:orientation="vertical">
 
     <!-- Purple Outline Style -->
-    <com.ext.customcheckboxradiobutton.CustomRadioButton
+    <com.ext.custom_checkbox_radiobutton.CustomRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Outline Style (Purple)"
@@ -99,7 +99,7 @@ dependencies {
         app:radioBackgroundTintColor="#F3E5F7" />
 
     <!-- Big Icon with Red Tint -->
-    <com.ext.customcheckboxradiobutton.CustomRadioButton
+    <com.ext.custom_checkbox_radiobutton.CustomRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Big Icon + Red Tint"
