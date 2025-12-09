@@ -43,7 +43,7 @@ allprojects {
 
 ```gradle
 dependencies {
-	       implementation("com.github.Excelsior-Technologies-Community:CustomCheckboxRadio:1.0.1")
+	  	        implementation("com.github.Excelsior-Technologies-Community:CustomCheckboxRadio:1.0.2")
 
 }
 ```
