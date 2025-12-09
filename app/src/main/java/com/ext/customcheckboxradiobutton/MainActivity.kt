@@ -2,6 +2,7 @@ package com.ext.customcheckboxradiobutton
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.TypedValue
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
@@ -28,7 +29,15 @@ class MainActivity : AppCompatActivity() {
         // Click listener to demonstrate runtime customization
         binding.btnChangeStyle.setOnClickListener {
             binding.checkbox3.apply {
-                // Change icons
+                // First set the new icon size (48dp)
+                val newSize = TypedValue.applyDimension(
+                    TypedValue.COMPLEX_UNIT_DIP,
+                    48f,
+                    resources.displayMetrics
+                ).toInt()
+                setIconSize(newSize)
+
+                // Then change icons (they will use the new size)
                 setCheckedIcon(
                     ContextCompat.getDrawable(
                         this@MainActivity,
@@ -48,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                 setBackgroundTint(Color.parseColor("#FFEBEE"))
 
                 // Change text
-                text = "Changed at runtime!"
+                text = "Changed at runtime (48dp icons)!"
                 textSize = 18f
                 setTextColor(Color.parseColor("#D32F2F"))
 

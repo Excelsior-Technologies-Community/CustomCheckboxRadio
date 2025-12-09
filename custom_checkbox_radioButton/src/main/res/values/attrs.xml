@@ -5,6 +5,7 @@
         <attr name="checkboxCheckedIcon" format="reference" />
         <attr name="checkboxUncheckedIcon" format="reference" />
         <attr name="checkboxIconPadding" format="dimension" />
+        <attr name="checkboxIconSize" format="dimension" />
         <attr name="checkboxPaddingStart" format="dimension" />
         <attr name="checkboxPaddingEnd" format="dimension" />
         <attr name="checkboxPaddingTop" format="dimension" />
@@ -21,6 +22,7 @@
         <attr name="radioCheckedIcon" format="reference" />
         <attr name="radioUncheckedIcon" format="reference" />
         <attr name="radioIconPadding" format="dimension" />
+        <attr name="radioIconSize" format="dimension" />
         <attr name="radioPaddingStart" format="dimension" />
         <attr name="radioPaddingEnd" format="dimension" />
         <attr name="radioPaddingTop" format="dimension" />

@@ -38,6 +38,7 @@
             app:checkboxBackgroundTintColor="@color/black"
             app:checkboxCheckedIcon="@drawable/ic_check_circle_32"
             app:checkboxIconPadding="10dp"
+            app:checkboxIconSize="20dp"
             app:checkboxPaddingEnd="20dp"
             app:checkboxPaddingStart="20dp"
             app:checkboxUncheckedIcon="@drawable/ic_circle_gray_32dp" />
@@ -82,6 +83,7 @@
                 app:radioBackgroundTintColor="#FFEBEE"
                 app:radioCheckedIcon="@drawable/ic_check_circle_red_32dp"
                 app:radioIconPadding="16dp"
+                app:radioIconSize="15dp"
                 app:radioPaddingEnd="10dp"
                 app:radioPaddingStart="10dp"
                 app:radioUncheckedIcon="@drawable/ic_circle_gray_32dp" />
