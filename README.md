@@ -1,4 +1,4 @@
-	# Custom CheckBox & RadioButton Library
+## Custom CheckBox & RadioButton Library
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
